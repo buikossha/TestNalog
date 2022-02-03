@@ -1,0 +1,242 @@
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(167, 167, 167);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}
+
+.modal.active{
+  transform: scale(1);
+  
+
+.modal_content{
+  position: absolute;
+  border-radius: 12px;
+  background-color: white;
+  height: 740px;
+  width: 552px;
+}
+
+.title{
+  margin: 32px 0 16px 32px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.close {
+  background-color: white;
+  border: 1px white solid;
+  position: absolute;
+  top: 18px;
+  left: 498px;
+  width: 20px;
+  height: 20px;
+  }
+
+  .close:hover {
+  cursor: pointer;
+  }
+
+  .close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 22px;
+  width: 3px;
+  background-color: #EA0029;
+  }
+
+  .close:before {
+  transform: rotate(45deg);
+  }
+  
+  .close:after {
+  transform: rotate(-45deg);
+  }
+
+  .description{
+    margin: 0 0 24px 32px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    height: 72px;
+  }
+
+  .suptitle{
+    margin: 0 0 8px 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .salary__input{
+    margin: 0 0 8px 32px;
+    width: 478px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #DFE3E6;
+    border-radius: 3px;
+    outline:none;
+  }
+
+  .salary__input:hover{
+    border: 1px #000000 solid;
+    transition: 1s;
+  }
+
+  .second__suptitle{
+    margin: 0 0 16px 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #EA0029;
+    background: transparent;
+    border: 1px transparent;
+    padding: 0;
+  }
+
+  .second__suptitle:hover{
+    cursor: pointer;
+    color: #F53A31;
+  }
+
+  .third__suptitle{
+    margin: 0 0 0 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+.nalog__section{
+  display: flex;
+  margin: 0 auto;
+  height: 56px;
+  width: 488px;
+  align-items: center;
+  border-bottom: 1px solid #DFE3E6;
+
+ p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 11px;
+
+  span{
+    margin-left: 4px;
+   color: #c4c4c4;
+   font-size: 14px;
+   line-height: 24px;
+  }
+ }
+
+}
+.real_checkbox{
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.custom_checkbox{
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px #DFE3E6 solid;
+  background-color: rgb(255, 255, 255);
+  vertical-align: sub;
+}
+
+.custom_checkbox::before{
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 11px;
+  background-image: url('./img/check.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.2s ease-in;
+
+}
+
+.real_checkbox:checked + .custom_checkbox::before{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.real_checkbox:checked + .custom_checkbox{
+  background-color: #FF5E56;
+}
+
+.custom_checkbox:hover{
+  border: 1px #000000 solid;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.fifth__suptitle{
+  margin: 24px 0 42px 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.red__button{
+  position: absolute;
+  top: 585px;
+  left: 176px;
+  width: 73px;
+  height: 36px;
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+  border: 0.1px solid transparent;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.grey__button{
+  position: absolute;
+  top: 585px;
+  left: 265px;
+  width: 57px;
+  height: 36px;
+  border: 0.1px solid transparent;
+  background: #EEF0F2;
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.add__button{
+  margin: 0 0 32px 32px;
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+  width: 488px;
+  height: 56px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0.1px solid transparent;
+}
+
+.add__button:hover{
+  transition: 1s;
+  background-color: #EA0029;
+  cursor: pointer;
+}
+}

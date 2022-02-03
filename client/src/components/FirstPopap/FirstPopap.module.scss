@@ -1,0 +1,172 @@
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(167, 167, 167);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}
+
+.modal.active{
+  transform: scale(1);
+
+
+.modal_content{
+  z-index: 1;
+  position: absolute;
+  border-radius: 12px;
+  background-color: white;
+  height: 476px;
+  width: 552px;
+
+  .title{
+    margin: 32px 0 16px 32px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .close {
+    background-color: white;
+    border: 1px white solid;
+    position: absolute;
+    top: 18px;
+    left: 498px;
+    width: 20px;
+    height: 20px;
+    }
+  
+    .close:hover {
+    cursor: pointer;
+    }
+  
+    .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 22px;
+    width: 3px;
+    background-color: #EA0029;
+    }
+  
+    .close:before {
+    transform: rotate(45deg);
+    }
+    
+    .close:after {
+    transform: rotate(-45deg);
+    }
+  
+    .description{
+      font-size: 14px;
+      color: #808080;
+      height: 72px;
+      line-height: 24px;
+      margin: 0 0 24px 32px;
+    }
+
+    .suptitle{
+      margin: 0 0 8px 32px;
+      line-height: 24px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .salary__input{
+      margin: 0 0 8px 32px;
+      width: 478px;
+      height: 40px;
+      border: 1px solid #DFE3E6;
+      border-radius: 3px;
+      padding-left: 10px;
+      outline:none;
+    }
+
+    .salary__input:hover{
+      border: 1px #000000 solid;
+      transition: 1s;
+    }
+
+    .salary__input::placeholder{
+      color: #BEC5CC;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .second__suptitle{
+      color: #EA0029;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      margin: 0 0 28px 32px;
+      padding: 0;
+      background: transparent;
+      border: 0.1px solid transparent;
+    }
+
+    .second__suptitle:hover{
+      cursor: pointer;
+      color: #F53A31;
+    }
+
+    .third__suptitle{
+      margin: 0 0 8px 32px;
+      line-height: 24px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .red__button{
+      position: absolute;
+      top: 312px;
+      left: 176px;
+      width: 73px;
+      height: 36px;
+      border-radius: 50px;
+      background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+      color: white;
+      font-size: 14px;
+      line-height: 24px;
+      border: 0.1px solid transparent;
+      font-weight: 400;
+    }
+
+    .grey__button{
+      position: absolute;
+      top: 312px;
+      left: 265px;
+      width: 57px;
+      height: 36px;
+      font-weight: 400;
+      background: #EEF0F2;
+      font-size: 14px;
+      line-height: 24px;
+      border-radius: 50px;
+      border: 0.1px solid transparent;
+
+    }
+
+    .add__button{
+      margin: 40px 0 0 32px;
+      width: 488px;
+      height: 56px;
+      background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+      border-radius: 6px;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      border: 0.1px solid transparent;
+    }
+
+    .add__button:hover{
+      transition: 1s;
+      background-color: #EA0029;
+      cursor: pointer;
+    }
+}
+}
