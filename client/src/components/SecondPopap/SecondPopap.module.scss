@@ -92,6 +92,27 @@
     transition: 1s;
   }
 
+  .error__input{
+    margin: 0 0 2px 32px;
+    width: 478px;
+    height: 40px;
+    border: 1px solid #EA0029;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline:none;
+  }
+
+  .invisible{
+    display: none;
+  }
+
+  .visible{
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0 0 0 32px;
+    color: #EA0029;
+  }
+
   .second__suptitle{
     margin: 0 0 16px 32px;
     font-weight: 500;
@@ -197,7 +218,7 @@
 
 .red__button{
   position: absolute;
-  top: 585px;
+  top: 578px;
   left: 176px;
   width: 73px;
   height: 36px;
@@ -211,7 +232,7 @@
 
 .grey__button{
   position: absolute;
-  top: 585px;
+  top: 578px;
   left: 265px;
   width: 57px;
   height: 36px;
@@ -220,6 +241,16 @@
   border-radius: 50px;
   font-size: 14px;
   line-height: 24px;
+}
+
+.red__button:hover{
+  transition: 1s;
+  background-color: #EA0029;
+  cursor: pointer;
+}
+
+.grey__button:hover{
+  cursor: pointer;
 }
 
 .add__button{
@@ -311,6 +342,16 @@
 .salary__input{
   width: 280px !important;
   height: 40px !important;
+  margin-left: 16px !important;
+}
+
+.error__input{
+  width: 280px !important;
+  height: 40px !important;
+  margin-left: 16px !important;
+}
+
+.visible{
   margin-left: 16px !important;
 }
 

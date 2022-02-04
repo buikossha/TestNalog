@@ -157,6 +157,12 @@
       font-weight: 400;
     }
 
+    .red__button:hover{
+      transition: 1s;
+      background-color: #EA0029;
+      cursor: pointer;
+    }
+
     .grey__button{
       position: absolute;
       top: 312px;
@@ -169,7 +175,10 @@
       line-height: 24px;
       border-radius: 50px;
       border: 0.1px solid transparent;
+    }
 
+    .grey__button{
+      cursor: pointer;
     }
 
     .add__button{

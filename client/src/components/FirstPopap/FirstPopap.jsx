@@ -22,8 +22,7 @@ function FirstPopap({ modalActive, setModalActive }) {
     setValue(e.target.value)
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     if (value === '') {
       setCheckInput({
         style: 'error__input',
@@ -59,7 +58,7 @@ function FirstPopap({ modalActive, setModalActive }) {
           <button className={style.add__button}>Добавить</button>
         </div>
       </div >
-      <SecondPopap active={active} setActive={setActive} />
+      <SecondPopap active={active} setActive={setActive}/>
     </>
   )
 }
