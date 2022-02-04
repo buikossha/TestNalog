@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/TestNalog/static/css/main.ad036af9.css",
+    "main.css": "/TestNalog/static/css/main.5de4dc0e.css",
     "main.js": "/TestNalog/static/js/main.d2327620.js",
     "index.html": "/TestNalog/index.html",
     "static/media/check.svg": "/TestNalog/static/media/check.79ba0d062192759bf5cf.svg",
-    "main.ad036af9.css.map": "/TestNalog/static/css/main.ad036af9.css.map",
+    "main.5de4dc0e.css.map": "/TestNalog/static/css/main.5de4dc0e.css.map",
     "main.d2327620.js.map": "/TestNalog/static/js/main.d2327620.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad036af9.css",
+    "static/css/main.5de4dc0e.css",
     "static/js/main.d2327620.js"
   ]
 }
