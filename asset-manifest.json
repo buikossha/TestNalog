@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TestNalog/static/css/main.4019838d.css",
+    "main.js": "/TestNalog/static/js/main.d2327620.js",
+    "index.html": "/TestNalog/index.html",
+    "static/media/check.svg": "/TestNalog/static/media/check.79ba0d062192759bf5cf.svg",
+    "main.4019838d.css.map": "/TestNalog/static/css/main.4019838d.css.map",
+    "main.d2327620.js.map": "/TestNalog/static/js/main.d2327620.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4019838d.css",
+    "static/js/main.d2327620.js"
+  ]
+}
