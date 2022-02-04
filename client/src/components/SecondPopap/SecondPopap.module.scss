@@ -67,6 +67,7 @@
     line-height: 24px;
     color: #808080;
     height: 72px;
+    width: 475px;
   }
 
   .suptitle{
@@ -238,5 +239,113 @@
   transition: 1s;
   background-color: #EA0029;
   cursor: pointer;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 455px){
+  .modal_content{
+    width: 454px;
+    height: 740px;
+  }
+
+  .close{
+    top: 17px;
+    left: 406px;
+  }
+
+  .description{
+    width: 369px !important;
+    height: 72px !important;
+  }
+
+  .salary__input{
+    width: 389px;
+    height: 40px;
+  }
+
+  .nalog__section{
+    width: 389px;
+  }
+
+  .add__button{
+    width: 389px;
+    height: 56px;
+  }
+}
+
+
+@media screen and (max-width: 454px){
+  .modal_content{
+    width: 320px !important;
+    height: 776px !important;
+    border-radius: 0px !important;
+  }
+
+  .title{
+    margin-left: 16px !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
+  .close{
+    top: 18px !important;
+    left: 272px !important;
+  }
+
+ .close:before, .close:after{
+    height: 18px !important;
+    width: 2px !important;
+  }
+
+.description{
+  margin-left: 16px !important;
+  width: 288px !important;
+  height: 64px !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+.suptitle{
+  margin-left: 16px !important;
+}
+
+.salary__input{
+  width: 280px !important;
+  height: 40px !important;
+  margin-left: 16px !important;
+}
+
+.second__suptitle{
+  margin-left: 16px !important;
+}
+
+.third__suptitle{
+  margin-left: 16px !important;
+  width: 160px !important;
+  height: 48px !important;
+}
+
+.nalog__section{
+  width: 288px !important;
+}
+
+.fifth__suptitle{
+  margin-left: 16px !important;
+}
+
+.red__button{
+  top: 635px !important;
+  left: 12px !important;
+}
+
+.grey__button{
+  top: 635px !important;
+  left: 97px !important;
+}
+
+.add__button{
+  margin-top: 63px !important;
+  margin-left: 16px !important;
+  width: 288px !important;
+  height: 40px !important;
 }
 }

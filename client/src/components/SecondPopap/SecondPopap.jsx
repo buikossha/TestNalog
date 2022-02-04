@@ -27,7 +27,7 @@ function SecondPopap({ active, setActive }) {
           <div className={style.modal_content} onClick={e => e.stopPropagation()}>
             <h3 className={style.title}>Налоговый вычет</h3>
             <button className={style.close} onClick={() => setActive(false)}></button>
-            <p className={style.description}>Используйте налоговый вычет чтобы погасить ипотеку досрочно. <br /> Размер налогового вычета составляет не более 13% от своего <br /> официального годового дохода.</p>
+            <p className={style.description}>Используйте налоговый вычет чтобы погасить ипотеку досрочно. Размер налогового вычета составляет не более 13% от своего официального годового дохода.</p>
             <p className={style.suptitle}>Ваша зарплата в месяц</p>
             <input type="text" className={style.salary__input} defaultValue={value} onChange={handleChange} />
             <button className={style.second__suptitle} onClick={handleClick}>Рассчитать</button>

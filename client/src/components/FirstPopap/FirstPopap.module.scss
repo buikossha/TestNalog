@@ -64,6 +64,7 @@
     .description{
       font-size: 14px;
       color: #808080;
+      width: 475px;
       height: 72px;
       line-height: 24px;
       margin: 0 0 24px 32px;
@@ -95,6 +96,27 @@
       color: #BEC5CC;
       font-size: 14px;
       line-height: 24px;
+    }
+
+    .error__input{
+      margin: 0 0 2px 32px;
+      width: 478px;
+      height: 40px;
+      border: 1px solid #EA0029;
+      border-radius: 3px;
+      padding-left: 10px;
+      outline:none;
+    }
+
+    .invisible{
+      display: none;
+    }
+
+    .visible{
+      font-size: 10px;
+      line-height: 12px;
+      margin: 0 0 0 32px;
+      color: #EA0029;
     }
 
     .second__suptitle{
@@ -169,4 +191,116 @@
       cursor: pointer;
     }
 }
+
+@media screen and (max-width: 768px) and (min-width: 453px){
+  .modal_content{
+    width: 453px;
+    height: 476px;
+  }
+
+  .close{
+    position: absolute;
+    top: 18px !important;
+    left: 408px !important;
+  }
+
+  .description{
+    width: 369px !important;
+    height: 72px !important;
+  }
+
+  .salary__input{
+    width: 389px !important;
+    height: 40px !important;
+  }
+
+  .error__input{
+    width: 389px !important;
+    height: 40px !important;
+  }
+
+  .add__button{
+    width: 389px !important;
+    height: 56px !important;
+  }
+}
+}
+
+@media screen and (max-width: 452px){
+  .modal_content{
+    width: 320px !important; 
+    height: 568px !important;
+    border-radius: 0px !important;
+  }
+
+  .title{
+    font-size: 18px !important;
+    margin-left: 16px !important;
+  }
+
+  .close{
+    top: 18px !important;
+    left: 272px !important;
+  }
+
+  .close:before, .close:after{
+    height: 18px !important;
+    width: 2px !important;
+  }
+
+  .description{
+    width: 288px !important;
+    height: 64px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    margin-left: 16px !important;
+  }
+
+  .suptitle{
+    margin-left: 16px !important;
+  }
+
+  .salary__input{
+    width: 280px !important;
+    height: 40px !important;
+    margin-left: 16px !important;
+  }
+
+  .error__input{
+    width: 280px !important;
+    height: 40px !important;
+    margin-left: 16px !important;
+  }
+
+  .visible{
+    margin-left: 16px !important;
+  }
+
+  .second__suptitle{
+    margin-left: 16px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .third__suptitle{
+    margin: 0 0 24px 16px !important;
+  }
+
+  .red__button{
+    top: 360px !important;
+    left: 16px !important;
+  }
+
+  .grey__button{
+    top: 360px !important;
+    left: 97px !important;
+  }
+
+  .add__button{
+    width: 288px !important;
+    height: 40px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    margin-left: 16px !important;
+    margin-top: 152px !important;
+  }
 }
